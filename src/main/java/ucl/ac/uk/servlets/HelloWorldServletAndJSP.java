@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/helloworldservletandjsp.html")
+@WebServlet("/helloworldservletandjsp.def")
 public class HelloWorldServletAndJSP extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response)
